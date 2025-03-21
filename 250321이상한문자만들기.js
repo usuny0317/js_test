@@ -6,7 +6,7 @@ function solution(s) {
       if ((j + 1) % 2 !== 0) {
         answer = answer + i[j].toUpperCase();
       } else {
-        answer = answer + i[j];
+        answer = answer + i[j].toLowerCase();
       }
     }
     answer = answer + " ";
